@@ -1,4 +1,4 @@
-// File: D:\Shispare\wize-observer\wise_observer_marketing\app\layout.tsx
+// File: E:\y u b\theft-detection\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
