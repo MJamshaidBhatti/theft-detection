@@ -1,4 +1,4 @@
-import { Demo } from '../types/demo';
+// import { Demo } from '../types/demo';
 
 export const ProductService = {
     getProducts() {

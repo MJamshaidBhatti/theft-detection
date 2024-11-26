@@ -1,4 +1,3 @@
-import { Demo } from '../types/demo';
 
 export const FeatureService = {
     getFeatures() {
