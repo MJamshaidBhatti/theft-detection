@@ -42,7 +42,7 @@ const Home = () => {
           <Link href="/" className="flex align-items-center">
             <Icon name="app-logo" type="svg" />
           </Link>
-          {/* <StyleClass
+          <StyleClass
             nodeRef={menuRef as NodeRef}
             selector="@next"
             enterClassName="hidden"
@@ -53,7 +53,7 @@ const Home = () => {
               ref={menuRef}
               className="pi pi-bars text-4xl cursor-pointer block lg:hidden text-700"
             ></i>
-          </StyleClass> */}
+          </StyleClass>
           <div
             className={classNames(
               "align-items-center surface-0 flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full left-0 px-6 lg:px-0 z-2",

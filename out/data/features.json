@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "key": "0",
+            "title": "Multi-Camera Support",
+            "label": "Allows for the thorough coverage of wide areas with several cameras.",
+            "icon": "camera"
+          
+        },
+        {
+            "key": "1",
+            "title": "AI and Machine Learning",
+            "label": "Utilizes AI algorithms to identify unusual patterns and potential theft behaviors.",
+            "icon": "AI"
+          
+        },
+        {
+            "key": "2",
+            "title": "Instant Notifications",
+            "label": "Real-time alerts notify security or managers of suspicious activity.",
+            "icon": "bell"
+          
+        },
+        {
+            "key": "3",
+            "title": "Software Updates",
+            "label": "Regular updates to keep the system up-to-date with the latest security features and algorithms.",
+            "icon": "settingLcd"
+          
+        },
+        {
+            "key": "4",
+            "title": "Blacklist Alerts",
+            "label": "Automatically flags and alerts staff of returning individuals suspected of theft.",
+            "icon": "alerts"
+          
+        },
+        {
+            "key": "5",
+            "title": "Follow Up",
+            "label": "Continuously monitor and track shoplifting activities for improved security and loss prevention.",
+            "icon": "followUp"
+          
+        }
+
+    ]
+}

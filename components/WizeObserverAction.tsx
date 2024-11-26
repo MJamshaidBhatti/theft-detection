@@ -20,7 +20,7 @@ const WiseObserverAction = () => {
           <p>
             Its advanced capabilities distinguish between innocent curiosity and
             suspicious behaviors, providing a reliable defense against theft.
-            Elevate your shops security with our state-of-the-art system.
+            Elevate your shop's security with our state-of-the-art system.
           </p>
           <Button
             type="button"

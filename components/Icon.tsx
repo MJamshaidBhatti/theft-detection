@@ -1,25 +1,23 @@
-import Image from 'next/image';
+import React from 'react';
 
-interface IconProps {
+interface IconProps extends React.HTMLAttributes<HTMLSpanElement> {
+  type: 'svg' | 'png';
   name: string;
-  type?: string;
-  alt?: string;
-  width?: number;
-  height?: number;
+  className?: string;
 }
 
-const Icon: React.FC<IconProps> = ({ name, type = 'svg', alt = 'icon', width = 24, height = 24 }) => {
-  return (
-    <div>
-      <Image
-        src={`/icons/${name}.${type}`} // Adjust the path based on your icon directory
-        alt={alt}
-        width={width}
-        height={height}
-        layout="intrinsic" // This maintains the given width/height
-      />
-    </div>
-  );
+const Icon: React.FC<IconProps> = ({ type, name, className, ...rest }) => {
+  const imagePath = `/images/${name}.${type}`;
+
+  if (type === 'svg' || type === 'png') {
+    return (
+      <span {...rest}>
+        <img src={imagePath} alt={`Icon: ${name}`} className={className} />
+      </span>
+    );
+  } else {
+    return null;
+  }
 };
 
 export default Icon;

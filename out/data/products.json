@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "key": "0",
+            "title": "Banking",
+            "image": "bank"
+          
+        },
+        {
+            "key": "1",
+            "title": "Warehouse",
+            "image": "warehouse"
+          
+        },
+        {
+            "key": "2",
+            "title": "Retail",
+            "image": "bank"
+          
+        },
+        {
+            "key": "3",
+            "title": "Manufacturing",
+            "image": "manufacturing"
+          
+        },
+        {
+            "key": "4",
+            "title": "Offices",
+            "image": "offices"
+          
+        }
+
+    ]
+}
